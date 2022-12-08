@@ -129,14 +129,14 @@ div[class^="card_"] {
 }
 
 .cards img {
-    height: auto;
+    height: 200px;
     width: 100px;
     border: 4px solid #3882f6;
     border-radius: 4px;
     margin: 0;
     padding: 0;
     
-    flex: 1;
+    flex: none;
     object-fit: cover;
     align-self: center;
 } 
