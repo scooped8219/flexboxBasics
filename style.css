@@ -112,15 +112,15 @@ body {
 }
 .cards {
     display: flex;
-    border: red solid 5px;
-    justify-content: space-around;
+    /*border: red solid 5px;*/
+    justify-content: center;
     padding: 2em 2em;
     gap: 3em;
     flex-wrap: wrap;
 }
 
 div[class^="card_"] {
-    border: red dotted 2px;
+    /*border: red dotted 2px;*/
     display: flex;
     flex-direction: column;
 }
