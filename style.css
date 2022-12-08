@@ -17,10 +17,12 @@ body {
     align-items: center;
     /*border: blue solid 1px;*/
     height: 40px;
-    padding: 0 5em;
+    padding: 1em 5em;
     flex-wrap: wrap;
     background-color: #1f2937;
-    flex: none;
+    /*this ensures the header links are visible as the screen shrinks*/
+    flex: 1;
+
 }
 
     .logo {
