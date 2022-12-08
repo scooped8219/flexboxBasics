@@ -38,6 +38,7 @@ body {
         margin: 0;
         gap: 10px;
         /*border: green solid 2px;*/
+        flex-wrap: wrap;
 
     }
 
@@ -73,6 +74,7 @@ body {
         color: white;
         /*border: red dotted 2px;*/
         max-width: 50vh;
+        flex-wrap: wrap;
     }
 
     h1 {
