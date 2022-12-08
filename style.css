@@ -1,0 +1,126 @@
+/* container*/
+body {
+    margin: 0;
+    padding: 0;
+    /*turn on flexbox!*/
+    display: flex;
+    flex-direction: column;
+    /*border: red solid 1px;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* container AND item*/
+.header {
+    display: flex;
+    /* reminder that this pushes the logo and header-links away from one another*/
+    justify-content: space-between;
+    align-items: center;
+    /*border: blue solid 1px;*/
+    height: 40px;
+    padding: 0 5em;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+    flex: none;
+}
+
+    .logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    /* container AND item*/
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0px;
+        margin: 0;
+        gap: 10px;
+        /*border: green solid 2px;*/
+
+    }
+
+    /* container AND item*/
+    li {
+        flex: none;
+        /*border: green dotted 2px;*/
+    }
+
+    /* item*/
+    a {
+        text-decoration: none;
+        color: #e5e7eb;
+        font-size: 18px;
+    }
+
+.top {
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em 5em;
+    gap: 5em;
+    /* debugging
+    border: red solid 2px;
+    */
+}
+
+    .topcol1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+
+        flex: 1;
+        color: white;
+        /*border: red dotted 2px;*/
+    }
+
+    h1 {
+        margin: 0px;
+        /*border: yellow solid 2px;*/
+    }
+
+    p {
+        margin: 0;
+       /* border: yellow solid 2px;*/
+    }
+
+    button {
+        /*body params*/
+        width: 30%;
+        background-color: #3882f6;
+        border-radius: 4px;
+        border: 0px;
+        padding: 5px;
+        /*text params*/
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+
+.hero_img {
+    margin: 0px;
+    flex: 0 1 0;
+    object-fit: scale-down;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.attribution {
+    align-self: flex-end;
+}
+
+.coa .container {
+    display: flex;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 10px 0;
+}
