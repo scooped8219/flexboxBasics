@@ -114,7 +114,7 @@ body {
     display: flex;
     /*border: red solid 5px;*/
     justify-content: center;
-    padding: 2em 2em;
+    padding: 2% 25%;
     gap: 3em;
     flex-wrap: wrap;
 }
@@ -133,7 +133,7 @@ div[class^="card_"] {
     margin: 0;
     padding: 0;
     
-    flex: 1 1 auto;
+    flex: 1;
     object-fit: cover;
     align-self: center;
 } 
@@ -145,14 +145,23 @@ div[class^="card_"] {
     max-width: 100px;
 }
 
-.quote {
+.quote_container {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding: 5% 10%;
+}
+
+.quote{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
 }
 
 .attribution {
     align-self: flex-end;
+    font-weight: bold;
 }
 
 .coa .container {
