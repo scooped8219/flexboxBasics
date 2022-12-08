@@ -58,9 +58,7 @@ body {
     flex-wrap: wrap;
     padding: 2em 5em;
     gap: 5em;
-    /* debugging
-    border: red solid 2px;
-    */
+    justify-content: center;
 }
 
     .topcol1 {
@@ -72,6 +70,7 @@ body {
         flex: 1;
         color: white;
         /*border: red dotted 2px;*/
+        max-width: 33%;
     }
 
     h1 {
@@ -167,7 +166,7 @@ div[class^="card_"] {
 
 .coa {
   /*border: blue dotted 3px;*/
-  padding: 7%;
+  padding: 10%;
 } 
 
 .coa .container {
